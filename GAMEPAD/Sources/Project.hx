@@ -1,5 +1,7 @@
 package;
 
+///this example was made using an xbox360 controller. should be easy to make for ps3
+
 import kha.input.Gamepad;
 
 class Project {
