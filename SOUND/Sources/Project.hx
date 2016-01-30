@@ -1,10 +1,6 @@
 package;
 
-import kha.Framebuffer;
-import kha.Scheduler;
-import kha.System;
 import kha.Assets;
-
 import kha.audio1.Audio;
 import kha.audio1.AudioChannel;
 import kha.Sound;
@@ -46,13 +42,13 @@ class Project {
 		switch (key){
 			case CHAR:
 			if (value == '1'){
-				trace('loop 01');
+				trace('sound 01');
 			}
 			if (value == '2'){
-				trace('loop 02');
+				trace('sound 02');
 			}
 			if (value == '3'){
-				trace('loop 03');
+				trace('sound 03');
 			}
 			default: return;
 		}
