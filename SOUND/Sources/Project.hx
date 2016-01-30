@@ -27,16 +27,16 @@ class Project {
 			case CHAR:
 			if (value == '1'){
 				///NOT LOOPED
-				Audio.play(Assets.sounds.loop01, false, false);
+				Audio.play(Assets.sounds.sound01, false, false);
 				
 				///LOOPED
-				// Audio.play(Assets.sounds.loop01, true, false);
+				// Audio.play(Assets.sounds.sound01, true, false);
 			}
 			if (value == '2'){
-				Audio.play(Assets.sounds.loop02, false, false);
+				Audio.play(Assets.sounds.sound02, false, false);
 			}
 			if (value == '3'){
-				Audio.play(Assets.sounds.loop03, false, false);
+				Audio.play(Assets.sounds.sound03, false, false);
 			}
 			default: return;
 		}
