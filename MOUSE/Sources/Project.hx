@@ -6,7 +6,7 @@ class Project {
 	public var boolItem = false;
 	
 	public function new() {
-		Mouse.get().notify(onMouseDown, onMouseUp, null, null);
+		Mouse.get().notify(onMouseDown, onMouseUp, onMouseMove, null);
 	}
 	
 	public function onMouseDown(button:Int, x:Int, y:Int):Void {
@@ -33,5 +33,21 @@ class Project {
 		}
 		
 		boolItem = false;
+	}
+	
+	public function onMouseMove(x:Int, y:Int, cx:Int, cy:Int):Void {
+		if (x > 0){
+			trace('x pos ' + x);
+		}
+		if (y > 0){
+			trace('y pos ' + y);
+		}
+		
+		if (cx > 0){
+			trace('Xing ' + cx);
+		}
+		if (cy > 0){
+			trace('Ying ' + cy);
+		}
 	}
 }
