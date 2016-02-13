@@ -1,4 +1,4 @@
-var project = new Project('New Project');
+var project = new Project('KEYBOARD');
 project.addAssets('Assets/**');
 project.addSources('Sources');
 return project;
