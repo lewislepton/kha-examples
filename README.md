@@ -11,7 +11,7 @@ also, if you want the super duper awesome theme from the screenshot, grab 'lestl
 
 #KHA2D
 
-for kha2d based fun. you *will* need to install [kha2d](https://github.com/KTXSoftware/Kha2D) into haxelib. go to terminal & input this
+for kha2d based fun [such as animations etc]. you *will* need to install [kha2d](https://github.com/KTXSoftware/Kha2D) into haxelib. go to terminal & input this
 
 `haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
 
