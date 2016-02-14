@@ -9,8 +9,6 @@ follow this super useful post on getting up & running with it - [kode studio for
 
 also, if you want the super duper awesome theme from the screenshot, grab 'lestle-vscode' from my [lestle theme collection](https://github.com/lewislepton/lestle-theme-collection) & put it in your extension folder.
 
-------
-
 #FOR KHA2D
 
 for kha2d based fun. you *will* need to install [kha2d](https://github.com/KTXSoftware/Kha2D) into haxelib. go to terminal & input this
@@ -20,8 +18,6 @@ for kha2d based fun. you *will* need to install [kha2d](https://github.com/KTXSo
 for mac users, you will need to put sudo before like this:
 
 `sudo haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
-
-------
 
 have phün & happy coding
 
