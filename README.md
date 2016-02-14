@@ -14,8 +14,12 @@ also, if you want the super duper awesome theme from the screenshot, grab 'lestl
 #FOR KHA2D
 
 for kha2d based fun. you *will* need to install [kha2d](https://github.com/KTXSoftware/Kha2D) into haxelib. go to terminal & input this
+
 `haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
-for mac users, you will need to put sudo before like this: `sudo haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
+
+for mac users, you will need to put sudo before like this:
+
+`sudo haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
 
 ------
 
