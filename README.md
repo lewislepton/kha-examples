@@ -19,6 +19,11 @@ for mac users, you will need to put sudo before like this:
 
 `sudo haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
 
+then check the `khafile.js` within the projects folder to see how its imported. its super simple with [kode studio](https://github.com/KTXSoftware/KodeStudio/releases).
+simply import by going to `khafile.js` & adding a library:
+
+`project.addLibrary('kha2d');`
+
 ------
 
 have phün & happy coding
