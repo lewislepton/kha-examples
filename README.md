@@ -19,6 +19,8 @@ for mac users, you will need to put sudo before like this:
 
 `sudo haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
 
+------
+
 have phün & happy coding
 
 [lewis lepton](http://lewislepton.com)
