@@ -29,7 +29,9 @@ simply import by going to `khafile.js` & adding a library:
 #OTHER LIBRARIES
 
 we will use other libraries as well to harness & do more cool things. why not, were coders ;)
+
 • [tweenx](http://tweenx.spheresofa.net/en.html)
+
 `haxelib install git tweenx https://github.com/shohei909/tweenx.git`
 
 ------
