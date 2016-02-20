@@ -2,8 +2,6 @@ package char;
 
 import kha.Framebuffer;
 import kha.Color;
-import kha.System;
-import kha.math.FastMatrix3;
 
 class Block {
 	public var x:Float;
