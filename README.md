@@ -30,8 +30,7 @@ simply import by going to `khafile.js` & adding a library:
 
 we will use other libraries as well to harness & do more cool things. why not, were coders ;)
 
-• [tweenx](http://tweenx.spheresofa.net/en.html)
-
+• [tweenx](http://tweenx.spheresofa.net/en.html)<br>
 `haxelib install git tweenx https://github.com/shohei909/tweenx.git`
 
 ------
