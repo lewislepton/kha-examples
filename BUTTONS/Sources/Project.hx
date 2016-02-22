@@ -23,9 +23,9 @@ class Project {
 	}
 	
 	public function loadAll(){
-		uiButton01 = new Button(0, 0, 128, 32, Color.Red);
+		uiButton01 = new Button(120, 64, 128, 32, Color.Red);
 		uiButton02 = new Button(256, 128, 32, 128, Color.Green);
-		uiButton03 = new Button(5, 256, 32, 64, Color.Blue);
+		uiButton03 = new Button(350, 256, 32, 64, Color.Blue);
 		
 		Mouse.get().notify(onMouseDown, null, null, null);
 	}
@@ -42,18 +42,8 @@ class Project {
 	}
 	
 	public function onMouseDown(button:Int, x:Int, y:Int){
-		if (button == 0){
-			if (x >= uiButton01.x && x <= uiButton01.x + uiButton01.width && y >= uiButton01.y && y <= uiButton01.y + uiButton01.height) {
-				trace('CLICKED THE FIRST');
-			}
-			
-			if (x >= uiButton02.x && x <= uiButton02.x + uiButton02.width && y >= uiButton02.y && y <= uiButton02.y + uiButton02.height) {
-				trace('CLICKED THE SECOND');
-			}
-			
-			if (x >= uiButton03.x && x <= uiButton03.x + uiButton03.width && y >= uiButton03.y && y <= uiButton03.y + uiButton03.height) {
-				trace('CLICKED THE THIRD');
-			}
-		}
+		uiButton01.onMouseDown(button, x, y);
+		uiButton02.onMouseDown(button, x, y);
+		uiButton03.onMouseDown(button, x, y);
 	}
 }

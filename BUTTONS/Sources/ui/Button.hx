@@ -22,4 +22,12 @@ class Button {
 		graphics.color = color;
 		graphics.fillRect(x, y, width, height);
 	}
+	
+	public function onMouseDown(mouseButton:Int, mouseX:Int, mouseY:Int){
+		if (mouseButton == 0){
+			if (mouseX >= this.x && mouseX <= this.x + this.width && mouseX >= this.y && mouseY <= this.y + this.height) {
+				trace('CLICKED THE BUTTON');
+			}
+		}
+	}
 }
