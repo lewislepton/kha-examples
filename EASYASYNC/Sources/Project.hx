@@ -7,10 +7,6 @@ class Project {
 		
 	}
 
-	public function loadAll() {
-		
-	}
-
 	public function update():Void {
 		
 	}
