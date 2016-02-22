@@ -18,7 +18,6 @@ class Main {
 			Assets.loadEverything(function(){
 				var Project = new Project();
 				Scheduler.addTimeTask(Project.update, 0, 1 / 60);
-				Assets.loadEverything(Project.loadAll);
 				System.notifyOnRender(Project.render);
 			});
 		});
