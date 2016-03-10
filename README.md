@@ -11,11 +11,10 @@ also, if you want the super duper awesome theme from the screenshot, grab 'lestl
 
 ------
 
-#OTHER LIBRARIES
+#LIBRARIES
 
-we will use other libraries as well to harness & do more cool things. why not, were coders ;)
-
-to use libraries inside kode studio. go to your `khafile.js` and put in `project.addLibrary('libraryName');`
+we will use libraries to harness & do more cool things in kha. why not, were coders ;)
+to use libraries inside kha/kode studio. go to your `khafile.js` and put in `project.addLibrary('libraryName');`
 
 • [kha2d](https://github.com/KTXSoftware/Kha2D)<br>
 `haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
