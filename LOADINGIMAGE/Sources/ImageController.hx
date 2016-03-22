@@ -10,10 +10,6 @@ class ImageController {
 	public var image:Image;
 	public function new(){
 		System.notifyOnRender(render);
-		Assets.loadEverything(loadAll);
-	}
-	
-	private function loadAll():Void {
 		image = Assets.images.LewisPixelComputer;
 	}
 	
