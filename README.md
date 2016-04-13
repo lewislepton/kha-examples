@@ -1,4 +1,7 @@
 # kha examples
+
+*this example page will not be updated. due to myself now doing the kha-tutorial-series, which is my video tutorial series. which will go through these files. but then go way over them. you can go [HERE](https://www.youtube.com/playlist?list=PL4neAtv21WOmmR5mKb7TQvEQHpMh1h0po) for the video playlist.*
+
 these are some kha examples, to help get new users [plus other users] to get to grips with the super awesome [kha](https://github.com/KTXSoftware/Kha)
 
 its highly recommended to run these projects in the super, uber, duper sexy [kode studio](https://github.com/KTXSoftware/KodeStudio/releases)
