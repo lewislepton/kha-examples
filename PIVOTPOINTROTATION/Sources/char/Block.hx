@@ -41,7 +41,7 @@ class Block {
 	public function render(framebuffer:Framebuffer){
 		var graphics = framebuffer.g2;
 		graphics.begin();
-		graphics.pushTransformation();
+		graphics.pushTransformation;
 		graphics.transformation = FastMatrix3.translation(-1, -1);
 		graphics.rotate(angle, x, y);
 		graphics.fillRect(x - 16, y - 16, 32, 32);
