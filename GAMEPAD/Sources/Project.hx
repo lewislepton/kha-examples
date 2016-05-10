@@ -1,6 +1,6 @@
 package;
 
-///this example was made using an xbox360 controller. should be easy to make for ps3
+///this example was made using an xboxOne controller. should be easy to make for ps3
 
 import kha.input.Gamepad;
 
@@ -12,33 +12,45 @@ class Project {
 	public function onGamepadAxis(axis:Int, value:Float):Void {
 		///LEFT ANALOG STICK
 		if (axis == 0){
-			if (value < -0.1){
+			if (value < -0.5){
 				trace('LEFT');
-			} else if (value > 0.1){
+			} else if (value > 0.5){
 				trace('RIGHT');
 			}
 		}
 		if (axis == 1){
-			if (value < -0.1){
+			if (value > 0.5){
 				trace('UP');
-			} else if (value > 0.1){
+			} else if (value < -0.5){
 				trace('DOWN');
 			}
 		}
 		
 		///RIGHT ANALOG STICK
-		if (axis == 2){
-			if (value < -0.1){
+		if (axis == 3){
+			if (value > 0.5){
 				trace('LEFT');
-			} else if (value > 0.1){
+			} else if (value < -0.5){
 				trace('RIGHT');
 			}
 		}
-		if (axis == 3){
-			if (value < -0.1){
+		if (axis == 4){
+			if (value < -0.5){
 				trace('UP');
-			} else if (value > 0.1){
+			} else if (value > 0.5){
 				trace('DOWN');
+			}
+		}
+		
+		if (axis == 2){
+			if (value < -0.5){
+				trace('LEFT TRIGGER');
+			}
+		}
+		
+		if (axis == 5){
+			if (value < -0.5){
+				trace('RIGHT TRIGGER');
 			}
 		}
 	}
@@ -62,41 +74,40 @@ class Project {
 			trace('RIGHT BUMPER');
 		}
 		
-		///TRIGGERS
+		///ANALOG PRESS
 		if (button == 6){
-			trace('LEFT TRIGGER');
+			trace('LEFT ANALOG PRESS');
 		} else if (button == 7){
-			trace('RIGHT TRIGGER');
+				trace('RIGHT ANALOG PRESS');
 		}
 		
 		///START/BACK BUTTONS
 		if (button == 8){
-			trace('BACK BUTTON');
-		} else if (button == 9){
 			trace('START BUTTON');
-		}
-		
-		///ANALOG BUTTONS
-		if (button == 10){
-			trace('LEFT ANALOG BUTTON');
-		} else if (button == 11){
-			trace('RIGHT ANALOG BUTTON');
+		} else if (button == 9){
+			trace('BACK BUTTON');
+		} else if (button == 10){
+			trace('HOME BUTTON');
 		}
 		
 		///DPAD BUTTONS
-		if (button == 12){
+		if (button == 11){
 			trace('DPAD UP');
-		} else if (button == 13){
+		} else if (button == 12){
 			trace('DPAD DOWN');
-		} else if (button == 14){
+		} else if (button == 13){
 			trace('DPAD LEFT');
-		} else if (button == 15){
+		} else if (button == 14){
 			trace('DPAD RIGHT');
 		}
 		
 		///HOME BUTTON
-		if (button == 16){
-			trace('HOME BUTTON');
+		if (button == 15){
+			trace('euhenuihe');
+		} else if (button == 16){
+			trace('sueitehuinteu');
+		} else if (button == 17){
+			trace('euineunitue');
 		}
 	}
 }

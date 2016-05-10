@@ -6,7 +6,7 @@ import kha.Assets;
 
 class Main {
 	public static function main() {
-		System.init("NAPE IMPULSE", 1024, 768, function () {
+		System.init({title:"NAPE IMPULSE", width:1024, height:768}, function () {
 			Assets.loadEverything(function(){
 				var Project = new Project();
 				Scheduler.addTimeTask(Project.update, 0, 1 / 60);

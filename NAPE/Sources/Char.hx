@@ -17,6 +17,6 @@ class Char {
 		body = new Body();
 		body.space = space;
     body.shapes.add(new Polygon(Polygon.box(96, 96)));
-		body.mass = 100;
+		body.mass = 10;
 	}
 }
