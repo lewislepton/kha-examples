@@ -16,13 +16,13 @@ class Project {
 	public var font01:Font;
 	public var font02:Font;
 	public function new() {
-		System.notifyOnRender(render);
 		Assets.loadEverything(loadAll);
 	}
 	
 	public function loadAll() {
 		font01 = Assets.fonts.champagneLimousines;
 		font02 = Assets.fonts.spaceship;
+		System.notifyOnRender(render);
 	}
 
 	public function render(framebuffer: Framebuffer): Void {
