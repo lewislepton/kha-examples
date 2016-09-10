@@ -1,4 +1,4 @@
-var project = new Project('SOUND');
+let project = new Project('SOUND');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

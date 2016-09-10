@@ -1,4 +1,4 @@
-var project = new Project('EASY ASYNC');
+let project = new Project('EASY ASYNC');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

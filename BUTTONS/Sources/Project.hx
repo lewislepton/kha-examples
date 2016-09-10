@@ -3,9 +3,6 @@
 package;
 
 import kha.Framebuffer;
-import kha.Scheduler;
-import kha.System;
-import kha.Assets;
 import kha.input.Mouse;
 import kha.Color;
 
@@ -17,12 +14,6 @@ class Project {
 	public var uiButton03:Button;
 	
 	public function new() {
-		Assets.loadEverything(loadAll);
-		System.notifyOnRender(render);
-		Scheduler.addTimeTask(update, 0, 1 / 60);
-	}
-	
-	public function loadAll(){
 		uiButton01 = new Button(120, 64, 128, 32, Color.Red);
 		uiButton02 = new Button(256, 128, 32, 128, Color.Green);
 		uiButton03 = new Button(350, 256, 32, 64, Color.Blue);
@@ -30,9 +21,9 @@ class Project {
 		Mouse.get().notify(onMouseDown, null, null, null);
 	}
 
-	function update():Void {}
+	public function update():Void {}
 
-	function render(framebuffer: Framebuffer):Void {
+	public function render(framebuffer: Framebuffer):Void {
 		var graphics = framebuffer.g2;
 		graphics.begin();
 		uiButton01.render(graphics);

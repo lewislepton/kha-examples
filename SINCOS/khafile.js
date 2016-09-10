@@ -1,4 +1,4 @@
-var project = new Project('SIN COS');
+let project = new Project('SIN COS');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

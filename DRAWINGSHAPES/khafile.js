@@ -1,4 +1,4 @@
-var project = new Project('DRAWING SHAPES');
+let project = new Project('DRAWING SHAPES');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

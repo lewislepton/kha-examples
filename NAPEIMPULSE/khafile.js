@@ -1,5 +1,5 @@
-var project = new Project('NAPE IMPULSE');
+let project = new Project('NAPE IMPULSE');
 project.addAssets('Assets/**');
 project.addSources('Sources');
 project.addLibrary('nape');
-return project;
+resolve(project);

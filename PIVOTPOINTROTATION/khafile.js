@@ -1,4 +1,4 @@
-var project = new Project('PIVOT POINT ROTATION');
+let project = new Project('PIVOT POINT ROTATION');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

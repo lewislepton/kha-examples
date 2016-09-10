@@ -1,4 +1,4 @@
-var project = new Project('GAMEPAD');
+let project = new Project('GAMEPAD');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

@@ -1,4 +1,4 @@
-var project = new Project('LOADING IMAGE');
+let project = new Project('LOADING IMAGE');
 project.addAssets('Assets/**');
 project.addSources('Sources');
-return project;
+resolve(project);

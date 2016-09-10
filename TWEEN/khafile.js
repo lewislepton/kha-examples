@@ -1,5 +1,5 @@
-var project = new Project('TWEEN');
+let project = new Project('TWEEN');
 project.addAssets('Assets/**');
 project.addSources('Sources');
 project.addLibrary('tweenx');
-return project;
+resolve(project);
