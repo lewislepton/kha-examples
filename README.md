@@ -8,22 +8,22 @@ its highly recommended to run these projects in the super, uber, duper sexy [kod
 
 ![kodestudio](ks.png)
 
-follow this super useful post on getting up & running with it - [kode studio forum post](http://kode.tech/kode-studio-16-1/)
+follow this super useful post on getting up & running with it - [kode studio forum post](http://kode.tech/kode-studio-16-1)
 
 also, if you want the super duper awesome theme from the screenshot, grab 'lestle-vscode' from my [lestle theme collection](https://github.com/lewislepton/lestle-theme-collection) & put it in your extension folder.
 
 ------
 
-#LIBRARIES
+# LIBRARIES
 
 we will use libraries to harness & do more cool things in kha. why not, were coders ;)
 to use libraries inside kha/kode studio. go to your `khafile.js` and put in `project.addLibrary('libraryName');`
 
 • [kha2d](https://github.com/KTXSoftware/Kha2D)<br>
-`haxelib install git kha2d https://github.com/KTXSoftware/Kha2D.git`
+`haxelib git kha2d https://github.com/KTXSoftware/Kha2D.git`
 
 • [tweenx](http://tweenx.spheresofa.net/en.html)<br>
-`haxelib install git tweenx https://github.com/shohei909/tweenx.git`
+`haxelib git tweenx https://github.com/shohei909/tweenx.git`
 
 • [nape](http://napephys.com)<br>
 `haxelib install nape`
