@@ -25,7 +25,7 @@ class Button {
 	
 	public function onMouseDown(mouseButton:Int, mouseX:Int, mouseY:Int){
 		if (mouseButton == 0){
-			if (mouseX >= this.x && mouseX <= this.x + this.width && mouseX >= this.y && mouseY <= this.y + this.height) {
+			if (mouseX >= this.x && mouseX <= this.x + this.width && mouseY >= this.y && mouseY <= this.y + this.height) {
 				trace('CLICKED THE BUTTON');
 			}
 		}
